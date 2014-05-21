@@ -2,24 +2,7 @@
 <?php require("includes/nav.php"); ?>
 <?php require("includes/intro-header.php"); ?>
 
-    <div class="content-section-a">
-<div class="container padd">
-                <div>
-<h2 class="section-heading">Get a Free Trial of Cloud2Class</h2>
-<p class="lead">Cloud2Class is an online software as a service which allows you to launch and manage large amounts of Virtual Linux instances that can be used to teach the fundimentals of programming.</p>
-<h4 class="section-heading" style="margin-bottom: 18px; color: #6bba70;">your students will have access to:</h4>
-<ul class="lead" style="padding-top:40px;">
-<li>A Linux instance with 512M of memory, 1 processor, and 2G of disk</li>
-<li>Optional shared file resources uploaded by the trainer</li>
-<li>Storage for their work</li>
-</ul>
-<p class="lead" style="margin-top:20px;">Cloud2Class means your students don't have to remember yet another set of login credentials for a service. Just tell them all the same information and wait for them to log on. Depending on your subscription, students can access as many instances as they have browser windows or tabs.</p>
-                </div>
-            </div>
-
-        </div>
-    <!-- /.content-section-a -->
-    <div class="content-section-a" id="about" style="margin-top:-60px;">
+    <div class="content-section-a" id="about">
 
         <div class="container padd">
 
@@ -31,50 +14,32 @@
                     <p class="lead">Aimed at students studying the new GCSE syllabus, Cloud2Class delivers to any device with a browser and can provide the same service to anyone requiring simple Linux resources in a training environment.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="envelope.png" alt="Cloud2Class">
+		<blockquote style="margin-top:20%;">
+  <p>Free trials of Cloud2Class are now available</p>
+  <a class="btn btn-success" href="#signUp">Sign Up</a>
+</blockquote>
+                    <img class="img-responsive" src="snip-cmyk.png" alt="Cloud2Class" style="min-width: 100%; height: auto;">
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
+	<!-- /.container -->
 
     </div>
     <!-- /.content-section-a -->
-    <div class="content-section-b" id="signUp" style="margin-top:-100px;">
-        <div class="container padd">
-<h3 style="text-align:center">Sign Up for a trial using the form below!</h3>
-<div class="my-formy" style="width:60%; margin-left:auto; margin-right:auto;">
-<div class="done">
-<b>Thank you !</b> We have received your message.
-</div>
-<form class="form-register" method="post" action="process.php" name="registerform">
-    <input class="form-control" placeholder="your full name" type="text" name="name" required="">
-    <input class="form-control" placeholder="email" type="text" name="email">
-    <input class="form-control" placeholder="organization" type="email" name="website" required="" autocomplete="off">
-    <textarea class="form-control" type="text" name="comment">I would like to have a free trail of Cloud2Class.</textarea>
-    <button type="submit" style="margin-top:10px;" id="submit" class="btn btn-lg btn-success btn-block" name="register">Register</button>
-</form>
-<div class="loading"></div>
-                </div>
-        </div>
-	<!-- /.container -->
-    </div>
-    <!-- /.content-section-b -->
-
-
 <hr class="section-heading-spacer" style="width:100%">
 <div class="content-section-b">
 <div class="container price-1 padd">
-<h2 class="section-heading">Cloud2Class Features:</h2>
 <div class="row plans">
-                        <div class="col-sm-4">
+<h3 class="section-heading">Cloud2Class Features:</h3>
+                       	<div class="col-sm-4">
                             <div class="plan">
                                 <div class="title">Easy Launching</div>
                                 <div class="price">one click of a button</div>
                                 <div class="description">
-				Launch up to 40 virtual instances with the click of a button.
+                                Launch up to 40 virtual instances with the click of a button.
                                 </div>
-				<a class="glyphicon glyphicon-send"></a>
+                                <a class="glyphicon glyphicon-send"></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -82,7 +47,7 @@
                                 <div class="title">Admin Panel</div>
                                 <div class="price">for teachers/instructors only</div>
                                 <div class="description">
-				Manage everything to do with your orginization over a GUI.
+                                Manage everything to do with your orginization over a GUI.
                                 </div>
                                 <a class="glyphicon glyphicon-tower"></a>
 
@@ -94,7 +59,7 @@
                                 <div class="title">Very Cheap</div>
                                 <div class="price">£1 per instances/per hour</div>
                                 <div class="description">
-				No contract or any other obligations. Easily pay with Paypal&copy;
+                                No contract or any other obligations. Easily pay with Paypal&copy;
                                 </div>
                                 <a class="glyphicon glyphicon-gbp"></a>
                             </div>
@@ -103,7 +68,50 @@
 
 </div>
 </div>
+<hr class="section-heading-spacer" style="width:100%">
+    <div class="content-section-a" style="margin-top:-40px;">
+<div class="container padd">
+                <div>
+<hr class="section-heading-spacer">
+<br>
+<h3 class="section-heading" style="margin-bottom: 18px;">your students will have access to:</h3>
+<ul class="lead" style="padding-top:40px;">
+<li>A Linux instance with 512M of memory, 1 processor, and 2G of disk</li>
+<li>Optional shared file resources uploaded by the trainer</li>
+<li>Storage for their work</li>
+</ul>
+<p class="lead" style="margin-top:20px;">Cloud2Class means your students don't have to remember yet another set of login credentials for a service. Just tell them all the same information and wait for them to log on. Depending on your subscription, students can access as many instances as they have browser windows or tabs.</p>
+                </div>
+            </div>
 
+        </div>
+    <!-- /.content-section-a -->
+    <div class="content-section-b" id="signUp" style="margin-top:-100px;">
+        <div class="container padd">
+<h3 style="text-align:center">Sign Up for a trial using the form below!</h3>
+<div class="my-formy" style="width:60%; margin-left:auto; margin-right:auto;">
+<blockquote>
+  <p>Free Trials of Cloud2Class are now available, we will get back to you as soon as possible with the details on how to use your Free Trail to the best of its ability.</p>
+</blockquote>
+<div class="done">
+<b>Thank you !</b> We have received your message.
+</div>
+<form class="form-register" method="post" action="process.php" name="registerform">
+    <input class="form-control" placeholder="your full name" type="text" name="name" required="">
+    <input class="form-control" placeholder="email" type="text" name="email">
+    <input class="form-control" placeholder="organization" type="email" name="website" required="" autocomplete="off">
+    <textarea class="form-control" type="text" name="comment">I would like to have a free trail of Cloud2Class.</textarea>
+    <button type="submit" style="margin-top:10px;" id="submit" class="btn btn-lg btn-success btn-block" name="register">Sign Up</button>
+</form>
+<div class="loading"></div>
+                </div>
+        </div>
+	<!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+
+
+<hr class="section-heading-spacer" style="width:100%">
 <section class="content-section-b">
 <div class="container padd">
 <h3>Frequently Asked Questions</h3>

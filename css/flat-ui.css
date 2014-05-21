@@ -239,7 +239,7 @@ p {
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 30.006px;
+    font-size: 27px;
   }
 }
 small,
