@@ -1,6 +1,6 @@
  <div class="banner">
 
-        <div class="container">
+        <div class="container padd">
 
             <div class="row">
                 <div class="col-lg-6" style="clear:both">
@@ -8,11 +8,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons" style="margin-top:28px;">
-                        <li><a href="http://www.brightprocess.com/education/" class="btn btn-default btn-lg"><span class="network-name">Education</span></a>
+                        <li><a href="http://www.brightprocess.com/education/" class="btn btn-success btn-lg"><span class="network-name">Education</span></a>
                         </li>
-                        <li><a href="http://www.brightprocess.com/engineering/" class="btn btn-default btn-lg"><span class="network-name">Engineering</span></a>
+                        <li><a href="http://www.brightprocess.com/engineering/" class="btn btn-success btn-lg"><span class="network-name">Engineering</span></a>
                         </li>
-                        <li><a href="http://www.brightprocess.com/professional-services/" class="btn btn-default btn-lg"><span class="network-name">Services</span></a>
+                        <li><a href="http://www.brightprocess.com/professional-services/" class="btn btn-success btn-lg"><span class="network-name">Services</span></a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                         <li><a href="http://www.brightprocess.com/article/">Blog</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Bright Process Ltd 2014, All Rights Reserved.<br>Company no: 6224201</p>
+                    <p class="copyright small">Copyright &copy; Bright Process Ltd 2014, All Rights Reserved.<br>Company no: 6224201</p>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h3 class="section-heading">Virtual Linux machines for whole classes.</h3>
-                    <p class="lead">Aimed at students studying the new GCSE syllabus, Cloud2Class delivers to any device with a browser and can provide the same service to anyone requiring simple Linux resources in a training environment.</p>
+			<p class="lead">Aimed at classes studying GCSE IT, teachers of further or higher education, Enterprise trainers and anyone requiring simple Linux resources in a training environment, Cloud2Class delivers the ability to have your class up-and-running in a matter of minutes with no fuss.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 		<blockquote style="margin-top:20%;">
@@ -34,34 +34,34 @@
 <h3 class="section-heading">Cloud2Class Features:</h3>
                        	<div class="col-sm-4">
                             <div class="plan">
-                                <div class="title">Easy Launching</div>
-                                <div class="price">one click of a button</div>
+                                <div class="title">Simple to Start</div>
+                                <div class="price">Click "Go" and your on your way</div>
                                 <div class="description">
-                                Launch up to 40 virtual instances with the click of a button.
+				Launch 1-100 machines with one click.
                                 </div>
                                 <a class="glyphicon glyphicon-send"></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="plan">
-                                <div class="title">Admin Panel</div>
-                                <div class="price">for teachers/instructors only</div>
+                                <div class="title">Class Administration</div>
+                                <div class="price">Start and Stop your lessons</div>
                                 <div class="description">
-                                Manage everything to do with your orginization over a GUI.
+                                Manage your students from one browser.
                                 </div>
                                 <a class="glyphicon glyphicon-tower"></a>
-
-                                <div class="ribbon">NEW</div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="plan">
-                                <div class="title">Very Cheap</div>
-                                <div class="price">£1 per instances/per hour</div>
+                                <div class="title">Cost Effective</div>
+                                <div class="price">Pre-pay £0.50 per hour per class</div>
                                 <div class="description">
-                                No contract or any other obligations. Easily pay with Paypal&copy;
+                                One month unlimited: £80 per class. Transfer or PayPal&copy;
                                 </div>
                                 <a class="glyphicon glyphicon-gbp"></a>
+
+				<div class="ribbon">SECURE</div>
                             </div>
                         </div>
                     </div>
@@ -69,18 +69,27 @@
 </div>
 </div>
 <hr class="section-heading-spacer" style="width:100%">
+<div class="content-section-a">
+<div class="container padd">
+<h3>The Concept:</h3>
+<p class="lead" style="padding-top:20px;">Cloud2Class instances are anonymous, replaceable, and destructible: Built at the start of a lesson and torn down at the end. This means you always start a lesson from the same place (Although you can provide unique exercises and lesson material for every lesson).</p>
+<p class="lead">Users don't have an identity: Your whole class can log in with the same URL, the same username, and the same password. You can have it on a board at the front so there are no mistakes.
+Cloud2Class does not come with a lesson plan or method of teaching: We are a tool, not a teaching service. This means what you do with Cloud2Class is up to you. The only limit is your creativity.</p>
+<p class="lead">If you want to know why we made some of these choices <a href="#signUp">see our FAQ</a>.</p>
+</div>
+</div>
     <div class="content-section-a" style="margin-top:-40px;">
 <div class="container padd">
                 <div>
 <hr class="section-heading-spacer">
 <br>
-<h3 class="section-heading" style="margin-bottom: 18px;">your students will have access to:</h3>
+<h3 class="section-heading" style="margin-bottom: 18px;">what your students will get: </h3>
 <ul class="lead" style="padding-top:40px;">
 <li>A Linux instance with 512M of memory, 1 processor, and 2G of disk</li>
 <li>Optional shared file resources uploaded by the trainer</li>
 <li>Storage for their work</li>
+<li>Perl, php, python, and any other Open Source software you care to install</li>
 </ul>
-<p class="lead" style="margin-top:20px;">Cloud2Class means your students don't have to remember yet another set of login credentials for a service. Just tell them all the same information and wait for them to log on. Depending on your subscription, students can access as many instances as they have browser windows or tabs.</p>
                 </div>
             </div>
 
@@ -89,7 +98,7 @@
     <div class="content-section-b" id="signUp" style="margin-top:-100px;">
         <div class="container padd">
 <h3 style="text-align:center">Sign Up for a trial using the form below!</h3>
-<div class="my-formy" style="width:60%; margin-left:auto; margin-right:auto;">
+<div class="my-formy">
 <blockquote>
   <p>Free Trials of Cloud2Class are now available, we will get back to you as soon as possible with the details on how to use your Free Trail to the best of its ability.</p>
 </blockquote>
@@ -114,6 +123,9 @@
 <hr class="section-heading-spacer" style="width:100%">
 <section class="content-section-b">
 <div class="container padd">
+
+<div class="row">
+                <div class="col-md-8">
 <h3>Frequently Asked Questions</h3>
 <hr>
 <div class="panel-group" id="accordion2">
@@ -157,7 +169,26 @@
                                     </div>
                                 </div>
                             </div>
-                        </div
+                        </div>
+                </div>
+                <div class="col-md-4">
+		<a href="https://cloud2class.com/future.html"><div class="alert alert-info" style="text-align: center;">
+<i class="glyphicon glyphicon-road" style="font-size: 109px;"></i> <h4 style="padding-top:10px;">Future Roadmap</h4> <p>Click here to see our plans for the future.</p>
+</div></a>
+<a href="mailto:support@brightprocess.com">
+<div class="alert alert-success">
+<i class="glyphicon glyphicon-question-sign"></i> Got a question to ask?</div>
+</a>
+                </div>
+            </div>
+</div>
+</section>
+<section class="content-section-a" style="margin-top:-40px;">
+<div class="container padd">
+<h4>Whiteboxing and local deployment is available:</h4>
+<p class="lead">If you want to integrate Cloud2Class into your existing infrastructure, we can deploy it on your local hardware in the UK at a cost of £2,500. Call us for details.</p>
+<h4>Customize your instances:</h4>
+<p class="lead">"If you have specific requirements for Operating System, initial software load-out or other technical requirements, call our sales team. We can usually accommodate.</p>
 </div>
 </section>
 <?php require("includes/footer.php"); ?>

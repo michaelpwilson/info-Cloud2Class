@@ -1,3 +1,6 @@
+.my-formy {
+width:60%; margin-left:auto; margin-right:auto;
+}
 .intro-pHolder{
 width:75%;
 }
@@ -23,6 +26,7 @@ width:100%;
 .intro-logo { float:none; }
 }
 @media(max-width:750px){
+.my-formy { width:85%; }
 .intro-container{ margin-top:5%;}
 .padd { padding:10px;}
 body {border-left:0; border-right:0;}
@@ -407,7 +411,7 @@ body {
   }
 }
 li {
-  line-height: 20px;
+  line-height: 35px;
 }
 .btn {
   -webkit-border-radius: 6px;
@@ -1199,22 +1203,24 @@ section * {
   padding-bottom: 110px;
 }
 .price-1 .plan {
-  background: #2ecc71;
-  border-color: #2ecc71;
-  box-shadow: 1px 1px 10px 1px black;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 3px solid #ebedee;
-  padding: 25px 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  text-align: center;
-  color: #fff;
-  font-size: 18px;
-  font-weight: normal;
+background: #FAFAFA;
+border-color: #e7e7e7;
+box-shadow: 1px 1px 5px 1px #B2B0B0;
+position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px;
+padding: 25px 0;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+text-align: center;
+color: #000;
+font-size: 18px;
+font-weight: normal;
+min-height:340px;
+max-height:340px;
 }
 .price-1 .plan > * {
   padding-left: 10px;
@@ -1235,6 +1241,7 @@ section * {
   border-top: 2px solid #ebedee;
   line-height: 28px;
   font-weight: normal;
+  font-size:20px;
 }
 .price-1 .plan .description b {
   font-weight: 500;
@@ -1649,6 +1656,22 @@ color: #fff;
 .navbar-default .navbar-collapse li a {
 color: #fff;
 }
+footer {
+background-color: #2ecc71;
+border-color: #2ecc71;
+color:white;
+padding-top:22px; 
+padding-bottom:22px;
+text-align:center;
+}
+footer a {
+color:white;
+font-size:15px;
+}
+footer a:hover{
+color:#2c3e50;
+}
+
 .navbar-greeny {
 background-color: #2ecc71;
 border-color: #2ecc71;
@@ -1820,12 +1843,6 @@ margin-bottom:20px;
 		margin-bottom: 0;
 	}	
 }
-
-footer {
-	background-color: #f8f8f8;
-	padding: 50px 0;
-}
-
 p.copyright {
 	margin: 15px 0 0;
 }
